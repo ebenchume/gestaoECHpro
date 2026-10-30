@@ -1,0 +1,60 @@
+[
+  {
+    "id": "bck-1793197299848",
+    "filename": "ECHpro_Backup_Daily_2026-10-28_14-21-39.json",
+    "timestamp": "2026-10-28T14:21:39.848Z",
+    "sizeBytes": 140,
+    "sizeFormatted": "140 B",
+    "sha256": "ca2f51b65241d17049d2827f5088bf41e71818a797da88ef0e5738f4075d090d",
+    "integrityVerified": true,
+    "destinations": {
+      "googleDrive": {
+        "status": "simulated",
+        "details": "Empacotado e preparado para sincronização com Google Drive (Validação SHA-256 concluída)"
+      },
+      "dropbox": {
+        "status": "simulated",
+        "details": "Empacotado e preparado para sincronização com Dropbox (Validação SHA-256 concluída)"
+      },
+      "local": {
+        "status": "success",
+        "path": "/app/applet/backups/daily/ECHpro_Backup_Daily_2026-10-28_14-21-39.json"
+      }
+    },
+    "totalRecords": {
+      "quartos": 12,
+      "hospedes": 4,
+      "checkins": 4,
+      "livroCaixa": 6
+    }
+  },
+  {
+    "id": "bck-1793197110191",
+    "filename": "ECHpro_Backup_Daily_2026-10-28_14-18-30.json",
+    "timestamp": "2026-10-28T14:18:30.190Z",
+    "sizeBytes": 140,
+    "sizeFormatted": "140 B",
+    "sha256": "6cab1a45afc03de753639d47cd4b42fed82c3c01b44e4ee125305dd5908f0621",
+    "integrityVerified": true,
+    "destinations": {
+      "googleDrive": {
+        "status": "simulated",
+        "details": "Empacotado e preparado para sincronização com Google Drive (Validação SHA-256 concluída)"
+      },
+      "dropbox": {
+        "status": "simulated",
+        "details": "Empacotado e preparado para sincronização com Dropbox (Validação SHA-256 concluída)"
+      },
+      "local": {
+        "status": "success",
+        "path": "/app/applet/backups/daily/ECHpro_Backup_Daily_2026-10-28_14-18-30.json"
+      }
+    },
+    "totalRecords": {
+      "quartos": 12,
+      "hospedes": 4,
+      "checkins": 4,
+      "livroCaixa": 6
+    }
+  }
+]

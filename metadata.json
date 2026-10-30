@@ -1,0 +1,6 @@
+{
+  "name": "ECHpro — Sistema de Gestão de Hóspedes",
+  "description": "Sistema profissional de gestão hoteleira e de hóspedes com suporte offline completo, widgets no dashboard, busca avançada, sincronização em nuvem e exportações.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

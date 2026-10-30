@@ -1,0 +1,81 @@
+╔══════════════════════════════════════════════════════════════╗
+║  ECHpro v2.2 — Gerar Ficheiro Executável (.EXE)             ║
+║  Para Windows 10 e Windows 11                                ║
+║  Sistema de Gestão de Hóspedes Profissional                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+COMO CRIAR O EXECUTÁVEL (obrigatório em PC Windows)
+───────────────────────────────────────────────────
+
+1. Copie ESTA PASTA INTEIRA para um computador com Windows 10/11.
+
+2. Certifique-se de que tem o Python 3.10+ instalado:
+   https://www.python.org/downloads/
+   (Marque "Add Python to PATH" durante a instalação)
+
+3. Faça DUPLO-CLIQUE no ficheiro:
+
+      1_INSTALAR_E_GERAR_EXE.bat
+
+4. Aguarde 1 a 3 minutos. No final, o executável estará em:
+
+      dist\ECHpro.exe
+
+5. (Opcional) Para criar um instalador profissional Setup.exe:
+   - Instale o Inno Setup 6: https://jrsoftware.org/isinfo.php
+   - Execute: 2_CRIAR_INSTALADOR.bat
+   - O instalador sai em: dist_installer\ECHpro_Setup.exe
+
+IMPORTANTE:
+  Não é possível gerar um .exe Windows a partir de Linux/Mac
+  de forma fiável. O .exe TEM de ser compilado num PC Windows.
+
+
+LOGIN PADRÃO
+────────────
+  Utilizador: admin
+  Senha:      admin123
+
+
+APOIO AO CLIENTE
+────────────────
+  Telefone / WhatsApp : +258 82 747 3434
+  Email               : ebenchume@sapo.mz
+  Horário             : Segunda a Sexta, 08h–17h
+
+
+SISTEMA DE LICENÇA / ACTIVACÃO
+──────────────────────────────
+  • Período de avaliação gratuita: 15 dias
+  • Após o trial é necessária uma chave de activação
+  • Formato da chave: ECHP-XXXX-XXXX-XXXX-XXXX
+  • A licença fica vinculada à máquina onde foi activada
+
+  Ficheiro com 50 chaves prontas:
+      CHAVES_ACTIVACAO.txt
+
+  Para gerar mais chaves (apenas desenvolvedor):
+      python GERAR_CHAVES.py
+      python GERAR_CHAVES.py 20
+      python GERAR_CHAVES.py --seed 100
+
+
+NOVIDADES v2.2
+──────────────
+  • Sistema de activação por chave de licença
+  • Período de avaliação de 15 dias
+  • Contactos de apoio ao cliente integrados
+  • Backup e restauração da base de dados
+  • Validações e parsing mais robustos
+  • Versão 2.2.0 — Completo e robusto
+
+
+FICHEIROS NESTA PASTA
+─────────────────────
+  ECHpro_Completo.py           → Código-fonte completo
+  GERAR_CHAVES.py              → Gerador de chaves de activação
+  CHAVES_ACTIVACAO.txt         → 50 chaves oficiais prontas
+  1_INSTALAR_E_GERAR_EXE.bat   → Gera o .exe (USE ESTE)
+  2_CRIAR_INSTALADOR.bat       → Gera o Setup.exe (opcional)
+  setup.iss                    → Script do Inno Setup
+  LEIA-ME.txt                  → Este ficheiro

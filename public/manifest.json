@@ -1,0 +1,17 @@
+{
+  "name": "ECHpro — Sistema de Gestão de Hóspedes",
+  "short_name": "ECHpro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f766e",
+  "description": "Sistema de Gestão de Hóspedes Profissional",
+  "icons": [
+    {
+      "src": "/logo_ech.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
